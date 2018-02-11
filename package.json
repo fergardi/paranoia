@@ -14,11 +14,17 @@
     "lint": "eslint --ext .js,.vue src test/unit/specs test/e2e/specs"
   },
   "dependencies": {
+    "dgram": "^1.0.1",
+    "dns": "^0.2.2",
     "firebase": "^4.9.1",
+    "fs": "0.0.1-security",
+    "miio": "^0.15.5",
     "muse-ui": "^2.1.0",
+    "net": "^1.0.2",
     "vue": "^2.5.2",
     "vue-router": "^3.0.1",
-    "vuefire": "^1.4.5"
+    "vuefire": "^1.4.5",
+    "vuex": "^3.0.1"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.5",

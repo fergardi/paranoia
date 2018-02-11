@@ -5,6 +5,7 @@
 
 <script>
   import { database } from '@/services/firebase'
+  
   export default {
     name: 'devices',
     async created () {

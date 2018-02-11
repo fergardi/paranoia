@@ -5,7 +5,8 @@ Vue.use(Router)
 
 export default new Router({
   routes: [
-    { path: '/', redirect: '/devices' },
+    { path: '/', redirect: '/console' },
+    { path: '/console', name: 'console', component: () => import('@/views/console') },
     { path: '/devices', name: 'devices', component: () => import('@/views/devices') }
   ]
 })
