@@ -6,7 +6,7 @@
 
 <script>
   import { database } from '@/services/firebase'
-  import { speech } from '@/services/speech'
+  import { speech } from '@/services/voice'
   // import { switchLight } from '@/services/xiaomi' // eslint-disable-line
   import store from '@/vuex'
 
